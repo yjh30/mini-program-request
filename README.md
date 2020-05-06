@@ -18,11 +18,11 @@ get,post,put...快捷方法 | 支持 | 不支持，与小程序原生api用法�
 ## 安装
 
 ```bash
-npm i axios -S
+npm i mini-program-axios -S
 ```
 
 ```bash
-yarn add axios
+yarn add mini-program-axios
 ```
 
 ## 使用
