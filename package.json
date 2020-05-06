@@ -1,5 +1,5 @@
 {
-  "name": "mini-program-request",
+  "name": "mini-program-axios",
   "version": "1.0.0",
   "description": "小程序网络请求类库",
   "main": "./lib/mini-program-request.js",
@@ -13,7 +13,8 @@
   "keywords": [
     "request",
     "mini-program",
-    "mini-program-request"
+    "mini-program-request",
+    "mini-program-axios"
   ],
   "author": "杨君华 <1025357509@qq.com>",
   "license": "ISC",

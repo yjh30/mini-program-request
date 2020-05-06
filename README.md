@@ -1,10 +1,10 @@
-# mini-program-request
+# mini-program-axios
 
-> 小程序原生网络请求api没有类似axios请求类库的一些功能，如：请求，响应拦截器功能，以及没有请求，响应数据转换功能；mini-program-request是一个类似axios的请求模块，默认支持微信，支付宝小程序，如果你还需要支持其他小程序，你需要更新请求适配器adapter
+> 小程序原生网络请求api没有类似axios请求类库的一些功能，如：请求，响应拦截器功能，以及没有请求，响应数据转换功能；mini-program-axios是一个类似axios的请求模块，默认支持微信，支付宝小程序，如果你还需要支持其他小程序，你需要更新请求适配器adapter
 
-## axios 与 mini-program-request
+## axios 与 mini-program-axios
 
-| 功能点 | axios | mini-program-request
+| 功能点 | axios | mini-program-axios
 | --- | --- | --- |
 适配器 | 默认支持浏览器与node端 | 默认支持微信，支付宝小程序端
 请求/响应拦截器 | 支持 | 支持
@@ -28,7 +28,7 @@ yarn add axios
 ## 使用
 
 ```js
-import axios from 'mini-program-request'
+import axios from 'mini-program-axios'
 
 /**
  * 小程序请求默认配置
