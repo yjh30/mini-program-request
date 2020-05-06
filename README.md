@@ -11,7 +11,7 @@
 transformRequest | 支持 | 支持
 处理headers['content-type'] | 根据请求数据data | 小程序原生处理
 transformResponse | 支持（可模拟响应数据结构，测试非常有用） | 支持（可模拟响应数据结构，测试非常有用）
-get,post,put...快捷方法 | 支持 | 不支持，与小程序用法保持一致
+get,post,put...快捷方法 | 支持 | 不支持，与小程序原生api用法保持一致
 
 备注：小程序请求api设置请求超时无效
 
