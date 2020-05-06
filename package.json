@@ -6,6 +6,15 @@
   "scripts": {
     "build": "./node_modules/.bin/webpack --config ./build/webpack.config.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yjh30/mini-program-request.git"
+  },
+  "keywords": [
+    "request",
+    "mini-program",
+    "mini-program-request"
+  ],
   "author": "杨君华 <1025357509@qq.com>",
   "license": "ISC",
   "dependencies": {
